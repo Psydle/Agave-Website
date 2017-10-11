@@ -1,0 +1,56 @@
+body{
+	/*background-color: purple;*/
+	background-image: url("img/chips3.jpg");
+	object-fit: cover;
+	max-width: 960px;
+	margin: auto;
+}
+header{
+	background-color: purple;
+	text-align: right;
+	font-size: 100%;
+	margin: 0px;
+	outline: solid 3px black;
+}
+nav{
+	display: -webkit-flex;
+	display: flex;
+	/*padding: 32px;*/
+	/*background-color: orange;*/
+	text-align: center;
+	margin-top: 0px;
+}
+nav a{
+	display: block;
+	background-color: orange;
+	border-style: outset;
+	border-width: 2px;
+	border-color: darkorange;
+	text-decoration: none;
+	font-size: 300%;
+	color: #aa4400;
+	font: sans-serif;
+	height: 10%;
+	width: 20%;
+	padding: 0%;
+	margin: 0px;/*change this if fucking up and don't know why*/
+}
+nav a:hover {
+  background-color: #0099dd;
+  color: black;
+}
+nav a#logo{
+	background-color: transparent;
+	border-style: none;
+	height:10%;
+	width:30%;
+	padding: 5px;
+}
+/*Set up responsive display to consolodate nav bar*/
+nav .icon {
+    display: none;
+}
+iframe#frame {
+	width:100%;
+	height:1000px;
+}
